@@ -1,0 +1,82 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+}
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding:auto;
+  margin: auto;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.padding {
+	padding: auto;
+	margin: auto;
+}
+
+
+.border {
+	
+	border: 2px solid grey;
+}
+
+hr {
+	width: 60%;
+}
+#error{
+    border-top:red;
+    border-top-width:2px
+}
+
+
+form{
+	text-align: left;
+}
+
+footer.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+img{
+	max-height: 40%;
+	max-width: 40%;
+}
+#regForm{
+
+	padding: 10%;
+}
+#button:hover{
+    color: green;
+    background-color:blue
+
+}
+
+#formsubmit{
+	color: #007bff !important
+
+}
+.submit-middle-0{
+	justify-content: all;
+	text-align: center;
+	padding-bottom: 3%;
+}
